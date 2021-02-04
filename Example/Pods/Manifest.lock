@@ -1,0 +1,22 @@
+PODS:
+  - OCPodSecond (0.1.0):
+    - SwiftPodFirst
+  - SwiftPodFirst (0.1.0)
+
+DEPENDENCIES:
+  - OCPodSecond (from `/Users/htsc/Desktop/MixedDemo/OCPodSecond`)
+  - SwiftPodFirst (from `../`)
+
+EXTERNAL SOURCES:
+  OCPodSecond:
+    :path: "/Users/htsc/Desktop/MixedDemo/OCPodSecond"
+  SwiftPodFirst:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OCPodSecond: 7afa25d5d3aaf0dc7e50f253dbd357c8dcaa01bb
+  SwiftPodFirst: a6c3753e89b61980636a2633b8cb184b8c02bc4e
+
+PODFILE CHECKSUM: 26187bee5848787849589dea8949df14ef6d0db0
+
+COCOAPODS: 1.9.3

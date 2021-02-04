@@ -1,0 +1,22 @@
+{
+  "name": "SwiftPodFirst",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftPodFirst.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/quantiza/SwiftPodFirst",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "quantiza": "yanglong@htsc.com"
+  },
+  "source": {
+    "git": "https://github.com/quantiza/SwiftPodFirst.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftPodFirst/Classes/**/*"
+}

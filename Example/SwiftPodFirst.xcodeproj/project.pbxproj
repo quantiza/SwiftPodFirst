@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7C9D65643CF26B9BD4F1A2FA /* Pods_SwiftPodFirst_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F7454D1FC5BF56ACEDAD07 /* Pods_SwiftPodFirst_Tests.framework */; };
-		EC8EED0462E02F209E0C193D /* Pods_SwiftPodFirst_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D7D2E84EDCB0C3981BC0D6 /* Pods_SwiftPodFirst_Example.framework */; };
+		8809AAEDE4965B649F091701 /* libPods-SwiftPodFirst_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE6CE8CAEC3176B88DFAD1B /* libPods-SwiftPodFirst_Example.a */; };
+		ED8599DB8189632A8A96BD28 /* libPods-SwiftPodFirst_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2571E0D7F00B82841667EBD /* libPods-SwiftPodFirst_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +30,7 @@
 /* Begin PBXFileReference section */
 		0A0474AD0A79E326EB384962 /* Pods-SwiftPodFirst_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPodFirst_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftPodFirst_Tests/Pods-SwiftPodFirst_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		15C3BBF299A35C750418FD41 /* Pods-SwiftPodFirst_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPodFirst_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPodFirst_Example/Pods-SwiftPodFirst_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		19F7454D1FC5BF56ACEDAD07 /* Pods_SwiftPodFirst_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPodFirst_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45450EA94A44089F335524C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		45450EA94A44089F335524C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		49591EA6A54EA4E68D7F6BF5 /* Pods-SwiftPodFirst_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPodFirst_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftPodFirst_Example/Pods-SwiftPodFirst_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftPodFirst_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPodFirst_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7FFE13C9839E78E9FAE34CF8 /* Pods-SwiftPodFirst_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPodFirst_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPodFirst_Tests/Pods-SwiftPodFirst_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C23BE510B713FD9A71A2D07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A8D7D2E84EDCB0C3981BC0D6 /* Pods_SwiftPodFirst_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPodFirst_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5DB80C29F1E57BE8549584B /* SwiftPodFirst.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftPodFirst.podspec; path = ../SwiftPodFirst.podspec; sourceTree = "<group>"; };
+		9C23BE510B713FD9A71A2D07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C2571E0D7F00B82841667EBD /* libPods-SwiftPodFirst_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftPodFirst_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DB80C29F1E57BE8549584B /* SwiftPodFirst.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftPodFirst.podspec; path = ../SwiftPodFirst.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DFE6CE8CAEC3176B88DFAD1B /* libPods-SwiftPodFirst_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftPodFirst_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8EED0462E02F209E0C193D /* Pods_SwiftPodFirst_Example.framework in Frameworks */,
+				8809AAEDE4965B649F091701 /* libPods-SwiftPodFirst_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C9D65643CF26B9BD4F1A2FA /* Pods_SwiftPodFirst_Tests.framework in Frameworks */,
+				ED8599DB8189632A8A96BD28 /* libPods-SwiftPodFirst_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +142,8 @@
 		AB2074B52FBD5B28EF8EE10F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8D7D2E84EDCB0C3981BC0D6 /* Pods_SwiftPodFirst_Example.framework */,
-				19F7454D1FC5BF56ACEDAD07 /* Pods_SwiftPodFirst_Tests.framework */,
+				DFE6CE8CAEC3176B88DFAD1B /* libPods-SwiftPodFirst_Example.a */,
+				C2571E0D7F00B82841667EBD /* libPods-SwiftPodFirst_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,7 +156,6 @@
 				7FFE13C9839E78E9FAE34CF8 /* Pods-SwiftPodFirst_Tests.debug.xcconfig */,
 				0A0474AD0A79E326EB384962 /* Pods-SwiftPodFirst_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				199EA4ADDFEA52C2797CDCB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,24 +261,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		199EA4ADDFEA52C2797CDCB7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftPodFirst_Example/Pods-SwiftPodFirst_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftPodFirst/SwiftPodFirst.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftPodFirst.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftPodFirst_Example/Pods-SwiftPodFirst_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		52495D0AF06274D53E80D0D4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

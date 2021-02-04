@@ -1,0 +1,6 @@
+module SwiftPodFirst {
+  umbrella header "SwiftPodFirst-umbrella.h"
+
+  export *
+  module * { export * }
+}

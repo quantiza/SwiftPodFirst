@@ -1,0 +1,29 @@
+{
+  "name": "OCPodSecond",
+  "version": "0.1.0",
+  "summary": "A short description of OCPodSecond.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/quantiza/OCPodSecond",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "quantiza": "yanglong@htsc.com"
+  },
+  "source": {
+    "git": "https://github.com/quantiza/OCPodSecond.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OCPodSecond/Classes/**/*",
+  "module_name": "OCPodSecond",
+  "public_header_files": "OCPodSecond/Classes/Cat.h",
+  "dependencies": {
+    "SwiftPodFirst": [
+
+    ]
+  }
+}
